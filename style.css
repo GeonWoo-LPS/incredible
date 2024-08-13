@@ -1,0 +1,15 @@
+/* Reset */
+body, ul, p {
+    margin: unset;
+    padding: unset;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
