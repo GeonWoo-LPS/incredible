@@ -192,3 +192,15 @@ body {
     top: 0;
     left: 150px;
 }
+
+@media (max-width: 700px) {
+    .contents {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .sidebar {
+        padding: 0;
+        margin: 0;
+    }
+}
