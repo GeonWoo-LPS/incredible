@@ -14,6 +14,11 @@ h1, h2 {
     font-weight: unset;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
 /* Typography */
 :root {
     font-family: 'arial';
@@ -79,7 +84,6 @@ body {
 
 .contents {
     margin: 0 60px 60px 60px;
-    box-shadow: inset 0 0 10px white;
     display: flex;
     gap: 100px;
     color: white;
@@ -111,7 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    box-shadow: inset 0 0 10px blanchedalmond;
+    margin-top: -66px;
 }
 
 .sidebar h2 {
@@ -138,4 +142,53 @@ body {
     line-height: 22px;
     padding: 0 14px;
     border-radius: 12px;
+}
+
+.star-box {
+    text-indent: -9999px;
+    height: 48px;
+    display: flex;
+}
+
+.star-on {
+    background-image: url(./images/star.png);
+    width: 146px;
+    background-size: 240px 96px;
+    background-position: bottom;
+}
+
+.star-off {
+    background-image: url(./images/star.png);
+    width: 94px;
+    background-size: 240px 96px;
+}
+
+.characters-box {
+    position: relative;
+    display: flex;
+    z-index: 0;
+}
+
+.characters-box img {
+    box-sizing: border-box;
+    width: 64px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+}
+
+.member-2 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.member-3 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.member-4 {
+    position: absolute;
+    top: 0;
+    left: 150px;
 }
